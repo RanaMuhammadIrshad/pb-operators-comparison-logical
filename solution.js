@@ -46,7 +46,7 @@ console.log(`7. Is the result of subtracting mangoes from apples (${mangoes} - $
 
 /* 8. Check whether `mangoes`, `apples` and `oranges` are equal. */
 
-let allEqual = mangoes === apples === oranges
+let allEqual = (apples === oranges) && (apples===mangoes) && (mangoes===oranges);
 console.log(`8. whether ${mangoes} mangoes, ${apples} apples and ${oranges} oranges are equal? ${allEqual}`)
 
 /* 9. Check whether the remainder of `apples` divided by `mangoes` and the remainder of `oranges` divided by `mangoes` are equal. */
